@@ -1,0 +1,29 @@
+// Create a function will calculate a student degrees for 6 subjects,
+//if the average was less than 70 will print (F)
+// Over 70 and less than 80 (C)
+// Over than 80 and less than 85 (B)
+// Over than 85 and less than 90 (A)
+// And over 90 print (A+)
+
+// Create a function that accepts the (user name, age, address and unlimited number of activities the user enjoy doing)
+// * print all the user input adding the greeting part and more text turning that input into a readable text.
+// * If one of his activities was dance ￼or party print "you are cool".
+/////
+// function degreesStudent(str) {
+//   let Ahmad = 22;
+//   let Max = 55;
+//   let Karam = 33;
+//   let Omar = 55;
+//   let Ammar = 88;
+//   let Haidear = 75;
+//   let result = Ahmad + Max + Karam + Omar + Ammar + Haidear;
+//   let sumAverage=result;
+//   console.log(result);
+// }
+// degreesStudent();
+// //if the average was less than 70 will print (F)
+// for(i=0;i<=result.sumAverage;i++){
+//     if(i< == 70){
+
+//     }
+// }
