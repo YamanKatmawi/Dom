@@ -1,0 +1,15 @@
+Math.sin
+Math.cos
+when i have 30angle the sin is 0,5
+when i have 30angle the cos is 3/2
+
+when i have 60angle the sin is 3/2
+when i have60angle the cos is 0,5
+
+when i have 90angle the sin is 1
+when i have 90angle the cos is0
+
+function getcircley(radions,radius){return Math.sin(radiaus)*radius}
+
+console.log(getcircley)(1,10));
+the resaut is 8,417 
