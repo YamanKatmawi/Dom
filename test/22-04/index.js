@@ -1,13 +1,14 @@
-document.write("hey, this is me");
-document.write("<h3>Yaman</h3>");
+document.write("Hi, I am yaman");
+document.write("<h1>DCI</h1>");
+
+// ------
 const create = () => {
   let newElement = document.createElement("div");
   let newText = document.createTextNode("I am yaman");
-  //   console.log(newElement);
   newElement.appendChild(newText);
   document.body.appendChild(newElement);
+  //   document.newElement.backgroundColor = "red";
 };
-// ---------
 const addToList = () => {
   let userInput = document.querySelector("#userText").value;
   console.log(userInput);
