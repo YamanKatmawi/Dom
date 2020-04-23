@@ -24,9 +24,18 @@ const addToList = () => {
   let span = document.createElement("span");
   let text = document.createTextNode("x");
   span.className = "close";
+  span.onclick = function () {
+    console.log("close", this.parentElement);
+    this.parentElement.style.display = "none";
+  };
   span.appendChild(text);
   let listAll = document.querySelectorAll("li");
   listAll.forEach((item) => {
     item.appendChild(span);
   });
 };
+// let close = document.getElementsByClassName("close");
+// let i;
+// for (i = 0; i < close.length; i++) {
+//   close[0].
+//   };
