@@ -38,5 +38,17 @@ form.addEventListener("submit", () => {
 form.addEventListener("reset", () => {
   alert("your Input has been cleared out");
 });
-/////
-let calculator = document.querySelector(".container");
+///
+function numberMu() {
+  let result = num1.value + num2.value;
+  console.log(num1);
+  document.getElementById("sumResult").value = result;
+}
+
+let num1 = document.getElementById("firstNumber");
+// num1.addEventListener("keyup", numberMu);
+console.log(num1);
+let num2 = document.getElementById("secondNumber");
+
+console.log(num2);
+// num2.addEventListener("keyup", numberMu);
