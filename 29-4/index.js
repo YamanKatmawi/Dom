@@ -38,17 +38,16 @@ form.addEventListener("submit", () => {
 form.addEventListener("reset", () => {
   alert("your Input has been cleared out");
 });
-///
-function numberMu() {
-  let result = num1.value + num2.value;
-  console.log(num1);
-  document.getElementById("sumResult").value = result;
-}
 
 let num1 = document.getElementById("firstNumber");
-// num1.addEventListener("keyup", numberMu);
-console.log(num1);
 let num2 = document.getElementById("secondNumber");
-
+console.log(num1);
 console.log(num2);
-// num2.addEventListener("keyup", numberMu);
+
+function numberMu() {
+  let a = Number(num1.value);
+  let b = Number(num2.value);
+  document.getElementById("sumResult").value = a + b;
+  console.log(num1.value);
+  console.log(num2.value);
+}
