@@ -17,8 +17,8 @@ hide.addEventListener("change", function () {
   }
 });
 
-// const del = document.querySelector(".delete");
-// del.addEventListener("click", function () {
-//   event.stopPropagation();
-//   console.log("Nice");
-// });
+const del = document.querySelector(".delete");
+del.addEventListener("click", function () {
+  event.stopPropagation();
+  console.log("Nice");
+});
